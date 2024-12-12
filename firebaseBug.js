@@ -1,0 +1,1 @@
+The Firebase SDKs might not always return error objects that follow standard JavaScript error conventions, making it harder to handle certain exceptions.  For example, sometimes a network error might return a status code without a structured error message, or an authentication failure might simply result in a null value where an object is expected.
